@@ -10,7 +10,7 @@ public class PortClient {
 	public static void main(String[] args) {
 		String host="47.98.135.28";
 		//String host="127.0.0.1";
-		int port =8088;
+		int port =8089;
 		try(Socket socket=new Socket(host,port);
 				OutputStream outputStream=socket.getOutputStream()) {
 			String message = "hello";

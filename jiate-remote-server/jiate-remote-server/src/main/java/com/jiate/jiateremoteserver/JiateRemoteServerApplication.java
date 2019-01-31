@@ -16,7 +16,7 @@ public class JiateRemoteServerApplication {
 		SpringApplication.run(JiateRemoteServerApplication.class, args);
 		SocketServer server = new SocketServer();
 		try {
-			server.startSocketServer(8088);
+			server.startSocketServer(8089);
 		} catch (IOException e) {
 			log.error("服务器异常",e);
 		}
